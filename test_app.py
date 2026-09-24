@@ -6,6 +6,7 @@ from app import sum_list, count_negatives
     ([3, 1, 4, 1, 5, 9], 23),
     ([-5, 0, 15, -20 , 40], 30),
     ([42], 42)
+    ([1,2,3,4],10)
 ])
 def test_sum_list(numbers, expected):
     
