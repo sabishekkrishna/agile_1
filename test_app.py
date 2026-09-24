@@ -1,5 +1,5 @@
 import pytest
-from app import sum_list, count_negative
+from app import sum_list, count_negatives
 
 
 @pytest.mark.parametrize("numbers, expected", [
@@ -17,6 +17,6 @@ def test_sum_list(numbers, expected):
     ([2, 4, 6, 8], 0),      
     ([7, -3, 11, 0, 1], 1)
 ])
-def test_count_negative(numbers, expected):
+def test_count_negatives(numbers, expected):
 
-    assert count_negative(numbers) == expected
+    assert count_negatives(numbers) == expected
