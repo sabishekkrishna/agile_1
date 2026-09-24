@@ -7,7 +7,7 @@ def count_negatives(numbers):
     count=0
     for i in numbers:
         if numbers[i]<0:
-            count++ 
+            count = count+1
     return count
 
 
