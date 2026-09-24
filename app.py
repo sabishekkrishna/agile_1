@@ -6,7 +6,7 @@ def sum_list(numbers):
 def count_negatives(numbers):
     count=0
     for i in numbers:
-        if numbers[i]<0:
+        if i<0:
             count = count+1
     return count
 
