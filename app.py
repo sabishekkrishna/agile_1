@@ -4,7 +4,7 @@ def sum_list(numbers):
     return sum(numbers)
 
 def count_negatives(numbers):
-    int count=0
+    count=0
     for i in numbers:
         if numbers[i]<0:
             count++ 
